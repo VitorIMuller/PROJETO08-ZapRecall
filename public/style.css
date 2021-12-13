@@ -48,11 +48,11 @@
     top: 5px;
   }
   .flashCard,
-  .FlashCardResposta {
+  .FlashCardResposta,
+  .TelaRespondida {
     width: 392px;
     height: 575px;
-  
-    background-color: gray;
+
   
     display: flex;
     align-items: center;
@@ -63,14 +63,32 @@
     font-family: "Roboto", sans-serif;
     font-size: 28px;
     font-weight: 700;
+
+    border: solid 3px rgba(0, 0, 0, 0.12);
   }
-  .flashCard img {
+
+  
+  .flashCard button {
     position: absolute;
     right: 15px;
     bottom: 10px;
   
     width: 39px;
     height: 35px;
+
+    border: none;
+  
+  }
+  
+  .flashCard img{
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+
+    width: 39px;
+    height: 35px;
+
+    cursor: pointer;
   }
   .deckResposta {
     position: absolute;
@@ -109,3 +127,37 @@
     font-size: 10px;
     font-weight: 400px;
   }
+  .aprendiagora{
+    border: solid black 2px;
+  }
+  .naolembrei{
+    border: solid red 2px;
+  }
+  .lembreiesforço{
+    border: solid green 2px;
+  }
+  .zap{
+    border: solid yellow 2px;
+    font-weight: bold;
+  }
+
+.contador{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+
+  font-size: 14px;
+}
+.pergunta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 50px;
+  margin-right: 50px;
+
+  font-size: 16px;
+  font-weight: 400px;
+
+  text-align: center;
+}
