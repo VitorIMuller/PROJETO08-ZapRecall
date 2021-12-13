@@ -29,8 +29,83 @@
     font-weight: 700;
 
     cursor: pointer;
+
+    background-color: white;
     
 }
 .telaInicio button img{
     margin-left: 5px;
 }
+
+.escondido{
+    display: none;
+}
+
+
+.logo-mini {
+    position: fixed;
+    left: 10px;
+    top: 5px;
+  }
+  .flashCard,
+  .FlashCardResposta {
+    width: 392px;
+    height: 575px;
+  
+    background-color: gray;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 200px auto;
+  
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .flashCard img {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+  
+    width: 39px;
+    height: 35px;
+  }
+  .deckResposta {
+    position: absolute;
+    top: 15px;
+  
+    font-size: 12px;
+  }
+  .Resposta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-left: 50px;
+    margin-right: 50px;
+  
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  .conclusao {
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+  }
+  .botoes {
+    width: 65px;
+    height: 48px;
+    cursor: pointer;
+  
+    border-radius: 12px;
+    border: solid green 2px;
+  
+    font-size: 10px;
+    font-weight: 400px;
+  }
